@@ -1,7 +1,19 @@
 #infantil {
-  background: "#7E318A"
+  display: block;
+  background-color: "#7E318A";
 }
 
 #fundamental_i {
-  background-color: "#A82564"
+  display: block;
+  background-color: "#A82564";
+}
+
+#fundamental_ii {
+  display: block;
+  background-color: "#8EA922";
+}
+
+#fundamental_iii {
+  display: block;
+  background-color: "#0E7280";
 }

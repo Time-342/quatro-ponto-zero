@@ -1,21 +1,5 @@
-<!--
-- page_title t('app_name')
-- page_meta_description t('meta_description')
 
-h1.mt-3
-  = yield :title
-
-ul
-  li
-    | = link_to 'Ensino Infantil', ensino_infantil_path, class: 'nav-link'
-  li
-    | = link_to 'Ensino Fundamental I', ensino_fundamental_i_path, class: 'nav-link'
-  li
-    | = link_to 'Ensino Fundamental II', hello_world_path, class: 'nav-link'
-  li
-    | = link_to 'Ensino Fundamental III', hello_world_path, class: 'nav-link'
--->
-<link rel="stylesheet" href="home.css">
+<%= stylesheet_link_tag "home.css" %>
 
 <h1 class="mt-3"><%= yield :title %></h1>
 <ul>
