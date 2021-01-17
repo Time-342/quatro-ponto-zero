@@ -4,7 +4,8 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   root 'pages#home'
-  get :hello_world, to: 'pages#hello_world'
+
+  get :nivel1, to: 'pages#nivel1'
 
   get :ensino_infantil, to: 'pages#ensino_infantil'
 
@@ -13,4 +14,9 @@ Rails.application.routes.draw do
   get :fundamental_ii, to: 'pages#fundamental_ii'
 
   get :fundamental_iii, to: 'pages#fundamental_iii'
+
+
+  #------------------------------------
+
+  get :hello_world, to: 'pages#hello_world'
 end
