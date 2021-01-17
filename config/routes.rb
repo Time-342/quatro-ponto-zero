@@ -8,9 +8,9 @@ Rails.application.routes.draw do
 
   get :ensino_infantil, to: 'pages#ensino_infantil'
 
-  get :ensino_fundamental_i, to: 'pages#ensino_fundamental_i'
+  get :fundamental_i, to: 'pages#fundamental_i'
 
-  get :ensino_fundamental_ii, to: 'pages#ensino_fundamental_ii'
+  get :fundamental_ii, to: 'pages#fundamental_ii'
 
-  get :ensino_fundamental_iii, to: 'pages#ensino_fundamental_iii'
+  get :fundamental_iii, to: 'pages#fundamental_iii'
 end
