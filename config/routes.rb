@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
+  get :cadastro, 'pages#cadastro'
+
   get :nivel1, to: 'pages#nivel1'
 
   get :ensino_infantil, to: 'pages#ensino_infantil'
