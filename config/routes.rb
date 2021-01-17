@@ -5,4 +5,12 @@ Rails.application.routes.draw do
 
   root 'pages#home'
   get :hello_world, to: 'pages#hello_world'
+
+  get :ensino_infantil, to: 'pages#ensino_infantil'
+
+  get :ensino_fundamental_i, to: 'pages#ensino_fundamental_i'
+
+  get :ensino_fundamental_ii, to: 'pages#ensino_fundamental_ii'
+
+  get :ensino_fundamental_iii, to: 'pages#ensino_fundamental_iii'
 end
