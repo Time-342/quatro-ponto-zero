@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   get :nivel1, to: 'pages#nivel1'
 
+
   get :ensino_infantil, to: 'pages#ensino_infantil'
 
   get :fundamental_i, to: 'pages#fundamental_i'
@@ -16,6 +17,8 @@ Rails.application.routes.draw do
   get :fundamental_ii, to: 'pages#fundamental_ii'
 
   get :fundamental_iii, to: 'pages#fundamental_iii'
+  #---
+  get :ensino_medio, to: 'pages#ensino_medio'
 
 
   #------------------------------------
